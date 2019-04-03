@@ -1,0 +1,17 @@
+service: multiplayer-tictactoe-game
+
+frameworkVersion: ">=1.1.0 <2.0.0"
+
+provider: 
+  name: aws
+  runtime: nodejs8.10
+  stage: dev
+  region: us-east-1
+
+functions:
+  ping: 
+    handler: index.ping
+    events:
+      - http:
+          path: ping
+          method: get
