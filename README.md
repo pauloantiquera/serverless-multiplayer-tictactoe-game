@@ -2,10 +2,10 @@
 
 ## Global dependencies:
 
-node (v8.10)
-serverless (>=v1.1.0 <v2.0.0)
-yarn
-mocha
+* node (>=v8.10)
+* serverless (>=v1.1.0 <v2.0.0)
+* yarn
+* mocha
 
 ## How to run:
 
